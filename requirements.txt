@@ -1,0 +1,5 @@
+pandas>=1.5.3
+click>=8.1.7
+python-dateutil>=2.8.2
+regex>=2023.8.8
+tqdm>=4.65.0
