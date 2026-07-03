@@ -1,14 +1,10 @@
-File name: README.md
-Language: text
-README template (fill in placeholders inside <>)
------------------------------------------------
 README.md
 
 Project Title
-A short one-line description of the project.
+A small Python utility to parse, filter and summarize server log files.
 
 Description
-Describe what the LogAnalyser does, its purpose, and intended users. Example: "A small Python utility to parse, filter and summarize server log files."
+A small Python utility to parse, filter and summarize server log files.
 
 Features
 - Feature 1 (e.g., parse common log formats)
@@ -108,6 +104,6 @@ What I need from you to produce a final README tailored to your code
 Once you paste the file (or provide the path/access), I'll:
 - Read the source
 - Extract the script purpose, usage, dependencies, CLI options, and key functions
-- Produce a polished README.md (and optionally create it in the repo if you want and give me permission)
+- Produce a polished README.md (and optionally create it in the repo if you want and give permission)
 
 Which option do you prefer? Paste the file here and I'll start generating the README right away.
