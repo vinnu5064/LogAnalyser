@@ -108,9 +108,8 @@ contexts.append(
 # STEP 4 - Generate Embeddings
 # =====================================
 
-model = SentenceTransformer(
-    "all-MiniLM-L6-v2"
-)
+#model = SentenceTransformer("all-MiniLM-L6-v2")
+model = SentenceTransformer("all-mpnet-base-v2")
 
 embeddings = model.encode(contexts)
 
@@ -170,7 +169,7 @@ def answer_question(question):
 
     if (
         any(x in query for x in
-            ["how many", "count", "number", "total"])
+            ["how many", "count", "number", "total", "give"])
         and
         any(x in query for x in
             ["failed", "failure", "unsuccessful"])
@@ -187,7 +186,7 @@ def answer_question(question):
 
     if (
         any(x in query for x in
-            ["how many", "count", "number", "total"])
+            ["how many", "count", "number", "total", "give"])
         and
         any(x in query for x in
             ["success", "successful"])
